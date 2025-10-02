@@ -1,0 +1,31 @@
+.logo{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.navlinks-container{
+    display: flex;
+    align-items: center;
+    gap: 6vw;
+    color: black;
+}
+.navlinks-container > li{
+    list-style-type: none;
+}
+.navlinks-container >li > a{
+    color: black;
+    text-decoration: none;
+}
+.navbar{
+    width: 100%;
+    padding: 30px 5vw 0 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-icon{
+    width: 36px;
+}
+.company-name{
+    width: 170.62px;
+}

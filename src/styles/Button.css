@@ -1,0 +1,33 @@
+.btn{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 9px 17px;
+    border-radius: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+button:focus {
+    outline: none;
+}
+button.button-sm {
+    padding: 7px 11px;
+    font-size: 12px;
+}
+
+button.button-lg {
+    padding: 13px 25px;
+}
+
+button.button-outlined {
+    border: 1px solid black;
+    background-color: #ECFDF5;
+    border-color: #047857;
+}
+ 
+button.button-filled {
+    color: white;
+    background-color: black;
+}
