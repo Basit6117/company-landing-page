@@ -4,14 +4,12 @@
     display: flex;
     gap: 15vw;
     margin-top: 50px;
-    padding: 0 5vw;
 
 }
 .left{
     display: block;
     gap: 10px;
     width: 35%;
-    /* border: 1px solid black; */
 }
 .left > h1{
     font-size: 60px;
@@ -27,7 +25,6 @@
 }
 .right{
     width: 40%;
-    /* border: 1px solid black; */
    
 }
 .right > img{
@@ -35,6 +32,5 @@
 }
 .trusted-by{
   display: flex;
-  gap: 9.5vw;
-  padding: 0 5vw;
+  gap: 7.5vw;
 }
