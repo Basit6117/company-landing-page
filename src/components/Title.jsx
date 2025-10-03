@@ -1,6 +1,6 @@
 import React from 'react'
-
-const Title = ({children}) => {
+import "../App.css"
+const Title = ({children, ...props}) => {
   return (
     <div className='title-container'>
       {children}
