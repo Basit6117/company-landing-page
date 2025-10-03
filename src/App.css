@@ -1,4 +1,4 @@
-.title-container > h2{
+.title-container > h2 {
     background-color: #B9FF66;
     padding: 5px;
     font-size: 25px;
@@ -38,4 +38,19 @@ svg.white-bg{
 }
 .dark-bg{
  color: white;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.social-icons > svg{
+  font-size: 40px;
+  border-radius: 50px;
+  color: white;
+  background-color: black;
+}
+.social-icons > svg:nth-child(3){
+font-size: 45px;
 }

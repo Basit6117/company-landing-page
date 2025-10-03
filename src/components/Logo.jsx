@@ -1,12 +1,9 @@
 import React from 'react'
 import "../styles/Navbar.css"
-import LogoIcon from "../assets/logo.png"
-import CompanyName from "../assets/name.png"
-const Logo = () => {
+const Logo = ({children}) => {
   return (
     <div className='logo'>
-      <img className='logo-icon' src={LogoIcon} alt="logo" />
-       <img className='company-name' src={CompanyName} alt="company name" />
+      {children}
     </div>
   )
 }

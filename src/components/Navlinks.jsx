@@ -1,9 +1,8 @@
 import React from 'react'
-import Button from './Button'
 import {navLinks} from "../data/navLinks"
-const Navlinks = () => {
+const Navlinks = ({footerNav, children}) => {
   return (
-    <ul className='navlinks-container'>
+    <ul className={`navlinksContainer ${footerNav}`}>
       {
         navLinks.map((link)=>{
             return(
@@ -13,7 +12,7 @@ const Navlinks = () => {
             )
         })
       }
-    <Button variant="success">Request a qoute</Button>
+      {children}
     </ul>
   )
 }

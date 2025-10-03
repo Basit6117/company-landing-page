@@ -3,16 +3,16 @@
     gap: 8px;
     align-items: center;
 }
-.navlinks-container{
+.navlinksContainer{
     display: flex;
     align-items: center;
     gap: 6vw;
     color: black;
 }
-.navlinks-container > li{
+.navlinksContainer > li{
     list-style-type: none;
 }
-.navlinks-container >li > a{
+.navlinksContainer >li > a{
     color: black;
     text-decoration: none;
 }
@@ -28,4 +28,8 @@
 }
 .company-name{
     width: 170.62px;
+}
+.footerNav > li > a{
+    color: white;
+    text-decoration:underline;
 }
