@@ -8,7 +8,6 @@
     display: flex;
     align-items: center;
 }
-
 button:focus {
     outline: none;
 }
@@ -16,7 +15,6 @@ button.button-sm {
     padding: 7px 11px;
     font-size: 12px;
 }
-
 button.button-lg {
     padding: 13px 25px;
 }
@@ -30,4 +28,7 @@ button.button-outlined {
 button.button-filled {
     color: white;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -14,6 +14,7 @@ import Navlinks from './components/Navlinks'
 import Button from './components/Button'
 import SocialsIcons from './components/SocialsIcons'
 import Title from './components/Title'
+import Contact from './sections/Contact'
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
 <TrustedBy />
 <Services />
 <Testimonials />
+<Contact />
 <Footer>
   <Navbar className="footer-nav">
     <Logo>
@@ -42,6 +44,15 @@ function App() {
     <SocialsIcons />
     </Navlinks>
 </Navbar>
+<div className="contact-sec">
+  <h3>Contact us:</h3>
+  <p>Email: info@positivus.com</p>
+  <p>Phone: 555-567-8901</p>
+  <p>Address: 1234 Main St Moonstone City, Stardust State 12345</p>
+</div>
+<hr />
+<br />
+<span>&copy; 2025 Positivus. All right Reserved.</span> <span>Privicy Policy</span>
 </Footer>
 </>
   )

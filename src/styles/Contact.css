@@ -1,0 +1,38 @@
+.section-contact {
+  margin-top: 9.6rem;
+  background-color: #F3F3F3;
+   display: flex;
+  border-radius: 10px;
+    overflow: hidden;
+}
+   form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    width: 100%;
+    & input,
+    & textarea {
+      font-family: "urbanist";
+      color: #fff;
+      padding: .5rem 1rem;
+      border-radius: 0.6rem;
+    }
+  }
+
+.contact{
+  width: 60%;
+  padding: 50px;
+}
+.img-sec {
+  display: flex;            
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.contact-image {
+  width: 500px;
+  object-fit: cover;   
+  margin-left: 600px;
+}
