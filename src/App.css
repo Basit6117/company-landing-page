@@ -16,6 +16,13 @@
   line-height: 19px;
   
 }
+
+@media screen and (max-width: 1300px) {
+  .title-container{
+    width: 100%;
+  }
+}
+
 .arrow-btn{
   display: flex;
   align-items: center;

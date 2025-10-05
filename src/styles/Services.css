@@ -9,6 +9,10 @@
 .services{
     margin-top: 3vw;
     margin-bottom: 2vw;
+    /* display: grid; */
+  
+    /* gap: 15px; */
+    /* justify-content: center; */
 }
 
 
@@ -16,7 +20,8 @@
 .card-container {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(580px, 1fr));
   gap: 2.2rem;
   padding-block: 3vw;
 }

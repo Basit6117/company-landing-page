@@ -16,26 +16,26 @@ const Contact = () => {
             <input
               type="text"
               name="username"
-              autoComplete='off'
+              // autoComplete='off'
               placeholder='Enter your Name'
-              className='form-control'
-              required
+              // className='form-control'
+              // required
               id="" />
             <input
               type="email"
               name="email"
-              autoComplete='off'
+              // autoComplete='off'
               placeholder='Enter your Email'
-              className='form-control'
-              required
+              // className='form-control'
+              // required
               id="" />
             <textarea
               rows={5}
               name="message"
-              autoComplete='off'
+              // autoComplete='off'
               placeholder='Enter your Message'
-              className='form-control'
-              required
+              // className='form-control'
+              // required
               id="" ></textarea>
             <Button variant="filled">Submit</Button>
           </form>

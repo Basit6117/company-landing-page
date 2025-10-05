@@ -56,6 +56,7 @@ const services = [
 ]
 const Services = () => {
   return (
+    <>
     <section className='services'>
         <Title>
             <h2>Services</h2>
@@ -81,6 +82,7 @@ const Services = () => {
      }
       </div>
     </section>
+    </>
   )
 }
 

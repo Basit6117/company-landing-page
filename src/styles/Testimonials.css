@@ -1,7 +1,18 @@
-.testimonials{
-    background-color: #191A23;
-    margin-top: 50px;
-    height: 460px;
-    width: 100%;
-    border-radius: 45px;
+.testimonials-section {
+  background-color: #191A23;
+  border-radius: 45px;
+  padding: 50px 20px;
+  margin-top: 50px;
+}
+
+.mySwiper {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: auto;
 }

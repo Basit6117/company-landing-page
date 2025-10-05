@@ -12,7 +12,7 @@ const TrustedBy = () => {
     <section className='trusted-by'>
       {
         trustedCompanies.map((company)=>{
-            return <img src={company} alt={company} width="100px"/>
+            return <img key={company} src={company} alt={company} width="100px"/>
         })
       }
     </section>
