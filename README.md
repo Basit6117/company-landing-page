@@ -76,6 +76,6 @@ Created by **Abdul Basit**.
 
 ##  Live Demo
 
- **View Project:** [Live Demo Here]
+ **View Project:** https://company-landing-page-positivus.netlify.app/
 
 ---
