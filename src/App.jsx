@@ -19,7 +19,6 @@ import { navLinks } from './data/navLinks'
 import {useState} from "react"
 function App() {
   const [toogle, setToggle] = useState(false)
-  console.log(toogle)
   return (
 <div className='App'>
 <Navbar className='navbar'>
