@@ -1,6 +1,6 @@
 #content {
   width: 100%;
-  max-width: 100%;       /* ✅ Let Swiper control width */
+  max-width: 100%;       
   display: flex;
   justify-content: center;
   height: auto;
@@ -8,8 +8,8 @@
 }
 
 .testimonial {
-  width: 90%;            /* ✅ Flexible width inside slide */
-  max-width: 350px;      /* ✅ Won’t exceed this */
+  width: 90%;
+  max-width: 350px;      
   background: #222;
   border: 1px solid #b9ff66;
   border-radius: 20px;

@@ -32,3 +32,8 @@ button.button-filled {
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width: 920px) {
+.navlinksContainer > .hide-btn{
+    display: none;
+}
+}

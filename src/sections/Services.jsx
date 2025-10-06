@@ -58,15 +58,11 @@ const Services = () => {
   return (
     <>
     <section className='services'>
-        <Title>
-            <h2>Services</h2>
-            <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
-        </Title>
         <div className="card-container">
      {
       services.map((service) =>{
         return(
-             <div className="card" style={{backgroundColor: service.cardBg}}>
+             <div key={service.title} className="card" style={{backgroundColor: service.cardBg}}>
         <div className="title-sec">
            <span style={{backgroundColor: service.titleBgColor}}>{service.title}</span>
             <ArrowBtn bgColor={service.cardBg}>{<FiArrowUpRight className={service.cardBg==="black" ? "white-bg" :  "black-bg"} />} Learn more</ArrowBtn>
@@ -75,8 +71,6 @@ const Services = () => {
             <img src={service.img} alt="amzon" width="200px" />
         </div>
       </div>
-  
-
         )
       })
      }

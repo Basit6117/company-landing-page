@@ -4,9 +4,9 @@
     align-items: center;
 }
 .navlinksContainer{
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 6vw;
+    gap: 5vw;
     color: black;
 }
 .navlinksContainer > li{
@@ -32,4 +32,21 @@
 .footerNav > li > a{
     color: white;
     text-decoration:underline;
+}
+.nav-btn >  p{
+    display: none;
+}
+@media screen and (max-width: 920px) {
+.nav-btn > p{
+    display: block;
+    font-size: 50px;
+    cursor: pointer;
+}
+.navlinksContainer > li{
+    display: none;
+}
+.nav-btn button{
+    display: none;
+}
+
 }

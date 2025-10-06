@@ -15,24 +15,50 @@ import Button from './components/Button'
 import SocialsIcons from './components/SocialsIcons'
 import Title from './components/Title'
 import Contact from './sections/Contact'
-
+import { navLinks } from './data/navLinks'
+import {useState} from "react"
 function App() {
-
+  const [toogle, setToggle] = useState(false)
+  console.log(toogle)
   return (
-<>
+<div className='App'>
 <Navbar className='navbar'>
   <Logo>
       <img className='logo-icon' src={LogoIcon} alt="logo" />
       <img className='company-name' src={CompanyName} alt="company name" />
   </Logo>
     <Navlinks>
-       <Button>Request a qoute</Button>
+       <Button className="hide-btn">Request a qoute</Button>
+        <p onClick={()=>setToggle(!toogle)}>☰</p>
+        {
+          toogle && 
+        <div className="menu-dropdown">
+            {navLinks.map(
+                item => (
+                    <div
+                        className="menu-item"
+                        key={item.name}
+                    >
+                        {item.name}
+                    </div>
+                )
+            )}
+        </div>
+        }
     </Navlinks>
 </Navbar>
 <Hero />
 <TrustedBy />
+        <Title>
+            <h2>Services</h2>
+            <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+        </Title>
 <Services />
 <Testimonials />
+      <Title>
+        <h2>Contact us</h2>
+        <p>Contact with us: Let's Discuss Your Digital Marketing Needs</p>
+      </Title>
 <Contact />
 <Footer>
   <Navbar className="footer-nav">
@@ -48,13 +74,13 @@ function App() {
   <h3>Contact us:</h3>
   <p>Email: info@positivus.com</p>
   <p>Phone: 555-567-8901</p>
-  <p>Address: 1234 Main St Moonstone City, Stardust State 12345</p>
+  <p>Address: 1234 Moonstone City, Stardust State 12345</p>
 </div>
 <hr />
 <br />
 <span>&copy; 2025 Positivus. All right Reserved.</span> <span>Privicy Policy</span>
 </Footer>
-</>
+</div>
   )
 }
 
