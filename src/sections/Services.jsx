@@ -1,6 +1,5 @@
 import React from 'react'
 import "../styles/Services.css"
-import Title from '../components/Title'
 import Card1Img from "../assets/card1.png"
 import Card2Img from "../assets/card2.png"
 import Card3Img from "../assets/card3.png"

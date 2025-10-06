@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/Contact.css";
 import Button from "../components/Button";
-import Title from "../components/Title";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
